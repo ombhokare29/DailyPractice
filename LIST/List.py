@@ -54,7 +54,13 @@ list.sort(reverse=True) #sorts by descending order
 print(list)
 list.reverse() # reverses the list
 
-list.insert(2, 23)
+list.insert(2, 23) #inserts an element at particular index
+
+
+list.remove(3) #removes the first occurance of an element
+
+list.pop(2) #deletes an element at particular index
+
 print(list)
 
 
