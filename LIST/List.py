@@ -45,9 +45,17 @@ print(mark[1:5])
 
 list = [1,3,2,5]
 
-list.append(4)  #adds 4 at the last 
+list.append(4)  #adds 4 at the last ,,,his function returns None
 
-list.sort() # sorts by ascending order
+list.sort() # sorts by ascending order,, this function returns None
 
+list.sort(reverse=True) #sorts by descending order
 
 print(list)
+list.reverse() # reverses the list
+
+list.insert(2, 23)
+print(list)
+
+
+
