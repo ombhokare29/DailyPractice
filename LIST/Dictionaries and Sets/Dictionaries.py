@@ -43,4 +43,6 @@ print("*****************************************************\n\n")
 
 print(school.keys())
 
-print(list(school.keys()))
+# print(list(school.keys()))
+
+print(school.items())
