@@ -4,7 +4,7 @@
 
 # both at the end stores as bits i.e 0 and 1
 
-f = open("/Users/ombhokare/DailyPractice/Files/sample.txt","r")
+f = open("/Users/ombhokare/DailyPractice/Files/sample.txt","a")
 
 
 

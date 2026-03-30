@@ -6,6 +6,6 @@ def fact(n):
         ans = n * fact(n-1)
         return ans
 
-print(fact(1000))
+print(fact())
 
 # while using recursions always write the code to stop at some time
