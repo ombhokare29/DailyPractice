@@ -18,12 +18,18 @@
 
 class Student:
 
-    def __init__(self,fullname):
+    def __init__(self,fullname,marks):
         self.name = fullname
+        self.marks = marks
         print("Adding the new student")
 
 
 
-s1 = Student("om")
+s1 = Student("om",99)
+s2 = Student("sai", 80)
  
-print(s1.name)
+print(s1.name,s1.marks)
+print(s2.name,s2.marks)
+
+# self is the reference to the current instance of a class
+
