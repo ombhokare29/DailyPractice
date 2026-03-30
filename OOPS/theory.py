@@ -25,5 +25,5 @@ class Student:
 
 
 s1 = Student("om")
-
+ 
 print(s1.name)
