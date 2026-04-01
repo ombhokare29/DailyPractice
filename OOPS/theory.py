@@ -33,3 +33,10 @@ print(s2.name,s2.marks)
 
 # self is the reference to the current instance of a class
 
+# self.name = name -=----Instance Variable
+
+
+# Class Variable
+"""lass Car:
+    wheels = 4
+"""
