@@ -6,7 +6,7 @@ app = FastAPI()
 # simple in-memory storage
 users = []
 
-
+a
 class User(BaseModel):
     name: str
     age: int
