@@ -9,7 +9,7 @@ users = []
 
 class User(BaseModel):
     name: str
-    age: intS
+    age: int
 
  
 @app.post("/users")
