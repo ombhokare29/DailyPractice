@@ -9,9 +9,9 @@ users = []
 
 class User(BaseModel):
     name: str
-    age: int
+    age: intS
 
-
+ 
 @app.post("/users")
 def create_user(user: User):
     if user.age < 18:
